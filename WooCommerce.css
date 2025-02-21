@@ -53,3 +53,15 @@
 	border: 3px solid #F0F0F7 !important;
 	border-radius: 8px !important;
 }
+
+.woocommerce-js .select2-container .select2-selection--single, 
+.woocommerce-js select, 
+.woocommerce-page .select2-container .select2-selection--single, 
+.woocommerce-page select {
+    padding: 0 !important;  /* Removes all padding */
+    padding-right: 2em !important;
+	padding-left: 1em !important;/* Keeps right padding */
+}
+
+
+
